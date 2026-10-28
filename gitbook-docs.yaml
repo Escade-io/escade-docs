@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Escade Docs
+  structure:
+    - type: space
+      key: space-escade
+      title: Escade
+      path: docs
+      default: true
+      content:
+        directory: ./
+        language: en
