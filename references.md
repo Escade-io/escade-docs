@@ -5,9 +5,11 @@ Abrahamse, S., Berghman, M. and Schaap, J. (2026) ‘Investing in meaning: justi
 Aviva (2026) Aviva data reveals surge in value of collectables. Available at: https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2026/04/aviva-data-reveals-surge-in-value-of-collectables/ (Accessed: 27 October 2026).
 
 BBC News (2026) ‘Logan Paul's Pokémon card smashes record in $16m sale’. Available at: https://www.bbc.co.uk/news/articles/cp32jgkqx0lo (Accessed: 27 October 2026).
+
 Calkins, M.M. (2001) ‘My reputation always had more fun than me: the failure of eBay’s feedback model to effectively prevent online auction fraud’, Richmond Journal of Law and Technology, 7(4), Article 5. Available at: http://scholarship.richmond.edu/jolt/vol7/iss4/5.
 
 Case, D.O. (2009) ‘Serial collecting as leisure, and coin collecting in particular’, Library Trends, 57(4), pp. 729-752.
+
 Cozmor (2026) Cozmor. Available at: https://www.cozmor.com/ (Accessed: 27 October 2026).
 
 Decrypt (2020) Closing decentralized marketplace OpenBazaar gets lifeline, 29 September. Available at: https://decrypt.co/43197/closing-decentralized-marketplace-openbazaar-gets-lifeline (Accessed: 27 October 2026).
@@ -42,7 +44,8 @@ Langelett, G. and Wang, Z. (2025) ‘Third-party grading as a useful measure of 
 
 Market Decipher (2026) Anticipated rise in collectibles demand starting 2024: the collectibles sector estimated at $484.6 billion, projected to grow at 9.2% annually. Available at: https://www.marketwatch.com/press-release/anticipated-rise-in-collectibles-demand-starting-2024-the-collectibles-sector-estimated-at-484-6-billion-projected-to-grow-at-9-2-annually-according-to-market-decipher-report-6a59c047 (Accessed: 27 October 2026).
 
-McIntosh, W.D. and Schmeichel, B. (2004) ‘Collectors and collecting: a social psychological perspective’, Leisure Sciences, 26([ISSUE]), pp. 85–97.
+McIntosh, W.D. and Schmeichel, B. (2004) ‘Collectors and collecting: a social psychological perspective’, Leisure Sciences, 26(1), pp. 85–97.
+
 Nosko, C. and Tadelis, S. (2015) The limits of reputation in platform markets: an empirical analysis and field experiment. NBER Working Paper 20830. Cambridge, MA: National Bureau of Economic Research. Available at: https://www.nber.org/papers/w20830.
 
 OpenBazaar (2016) OpenBazaar 2.0: P2P trade takes the next step. Available at: https://medium.com/openbazaarproject/openbazaar-2-0-p2p-trade-takes-the-next-step-4d75b7f23ec8 (Accessed: 27 October 2026).
