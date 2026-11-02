@@ -16,6 +16,8 @@ Postage is bought from InPost directly, locker to locker, and you enter the trac
 
 If the buyer goes quiet instead, the sale does not hang forever. Once the delivery window passes with no confirmation, no return and no dispute, the escrow settles as delivered: you are paid, and both lots of collateral go back. Anyone can send that settlement, but nobody chooses its outcome. The program works it out from the timestamps on the escrow.
 
+![How a sale moves through escrow, including cancellations, returns and disputes](images/escadeShopEscrowFlow.png)
+
 ## Trading card for card
 
 Both sides post collateral, sized to the value of the requested cards for the submitter and the received cards for the acceptor, and the money in escrow is only collateral since there is no cash leg. Then:
@@ -31,6 +33,8 @@ Once accepted, a trade cannot be cancelled by one side alone. One trader request
 If the dispatch window passes and only one of you has dispatched, the side that dispatched receives both collaterals. If neither of you has, half of each collateral is burned and the rest is returned. If both cards are on their way and one side never confirms, the trade settles as delivered at the end of the delivery window.
 
 Because both sides have something at stake and both must confirm, a card-for-card trade is the case escrow suits best — and the case no existing marketplace handles, because there is no payment to hold.
+
+![How a card-for-card trade moves through escrow, including cancellations, returns and disputes](images/escadeTradeEscrowFlow.png)
 
 ## What the program will and will not do
 
