@@ -54,7 +54,7 @@ If the card is not what was described, click **Return card** instead of confirmi
 6. Post the card, then click **Input tracking ID**, choose InPost, enter the tracking number and approve the transaction. You must dispatch within the 7-day dispatch window, or you lose half your collateral.
 7. Once the buyer confirms, you are paid the price and delivery, and your collateral comes back.
 
-## Trading card for card
+## Trading a card for a card
 
 1. Go to **Trade**. To create a trade, open a set, click **Submit Trade**, mark the cards you **Offer** and the cards you **Want**, then click **Submit** and approve. You pay the listing fee and post collateral.
 2. To accept someone else's trade, open it, click **Add to trade cart**, then **Accept Trades** in your trade cart, and approve. You post collateral.

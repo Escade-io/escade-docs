@@ -1,4 +1,4 @@
-# How a sale works
+# How Escade works
 
 There are two flows. A **sale** swaps cash for a card. A **trade** swaps a card for a card. They work the same way, except that in a trade both sides post an item and both sides confirm receipt.
 
@@ -18,7 +18,7 @@ If the buyer goes quiet instead, the sale does not hang forever. Once the delive
 
 ![How a sale moves through escrow, including cancellations, returns and disputes](images/escadeShopEscrowFlow.png)
 
-## Trading card for card
+## Trading a card for a card
 
 Both sides post collateral, sized to the value of the requested cards for the submitter and the received cards for the acceptor, and the money in escrow is only collateral since there is no cash leg. Then:
 
