@@ -61,7 +61,7 @@ What is missing is a way to swap where:
 - a dispute has a clear, understandable route to an answer
 - the platform pays its way without needing to take custody of anything
 
-[How a sale works](how-it-works.md) explains how Escade sets out to do that.
+[How Escade works](how-it-works.md) explains how Escade sets out to do that.
 
 ---
 

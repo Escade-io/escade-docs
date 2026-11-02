@@ -46,7 +46,7 @@ All tracking IDs are verified against InPost's API. The public tracking API is a
 
 - [Your first trade](first-trade.md) — wallet setup to a finished trade, step by step
 - [The problem Escade solves](the-problem.md) — what goes wrong in card trades, and what doesn't
-- [How a sale works](how-it-works.md) — step by step, both flows
+- [How Escade works](how-it-works.md) — step by step, both flows
 - [Disputes](disputes.md) — refunds, returns, and disputes
 - [What Escade cannot do](what-escade-cannot-do.md) — the limits, deliberately
 - [Collateral and fees](collateral-and-fees.md) — what you pay and what you get back
