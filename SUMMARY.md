@@ -2,7 +2,7 @@
 
 * [Escade](README.md)
 * [The Problem Escade Solves](the-problem.md)
-* [Your First Trade](first-trade.md)
+* [Your First Transaction](first-trade.md)
 * [How Escade Works](how-it-works.md)
 * [Disputes](disputes.md)
 * [What Escade Cannot Do](what-escade-cannot-do.md)

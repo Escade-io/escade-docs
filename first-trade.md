@@ -1,4 +1,4 @@
-# Your first trade
+# Your first transaction
 
 This page takes you through making your first sale and/or trade on Escade. Currently the platform is in beta testing on Solana's devnet, a test network where SOL is free and has no value, so nothing here costs you real money whilst we smooth everything out and market the product.
 
