@@ -1,0 +1,10 @@
+{
+  "name": "escade-docs",
+  "private": true,
+  "scripts": {
+    "build": "honkit build"
+  },
+  "devDependencies": {
+    "honkit": "6.2.5"
+  }
+}
