@@ -20,6 +20,10 @@ This is sometimes frustrating and it is not an oversight. A system where Escade 
 
 There is no instruction to freeze an escrow, nothing that reverses a completed release, and no mechanism to recover funds after a release has settled. Once the program pays out, that is final for everyone including us.
 
+### What Circle can do
+
+Escade holds collateral and payments in USDC, a stablecoin issued by Circle. Circle is not part of Escade, and it keeps powers over USDC that Escade does not have. Circle can freeze USDC in any account, including an escrow, for example when ordered to by a court or regulator, or to comply with sanctions. If Circle froze an escrow's USDC, neither party could release it and neither could Escade until Circle lifted the freeze. This is a property of USDC itself, and it applies wherever you hold USDC, not just on Escade.
+
 ## Escade cannot verify what is in the envelope
 
 No marketplace can. This is covered in [If something goes wrong](disputes.md), but it belongs on this page too, because it is the most important limit on what the dispute process is worth. Escade sees dispatch and receipt. It does not see the contents, so please take photographs and keep as much evidence as possible in case a dispute arises. 
