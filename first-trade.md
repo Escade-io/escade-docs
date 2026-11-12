@@ -1,6 +1,6 @@
 # Your first transaction
 
-This page takes you through making your first sale and/or trade on Escade. Currently the platform is in beta testing on Solana's devnet, a test network where SOL is free and has no value, so nothing here costs you real money whilst we smooth everything out and market the product.
+This page takes you through making your first sale and/or trade on Escade. Currently the platform is in beta testing on Solana's devnet, a test network where USDC is free and has no value, so nothing here costs you real money whilst we smooth everything out and market the product.
 
 ## 1. Set up a wallet
 
@@ -10,9 +10,14 @@ We suggest using Phantom wallet to connect to Escade. All other wallets should w
 2. Create a wallet and write down the recovery phrase somewhere offline. Anyone with that phrase controls the wallet, and nobody, including Escade, can recover it for you.
 3. Switch Phantom to devnet: **Settings → Developer Settings → Testnet Mode**, then choose **Solana devnet**.
 
-## 2. Get some devnet SOL
+## 2. Get some devnet SOL and USDC
 
-Copy your wallet address from Phantom, paste it into the [Solana faucet](https://faucet.solana.com), and request devnet SOL. A couple of SOL covers several test transactions. If the faucet limits you, try again later or sign up for gitbook and make one commit on your account.
+Escade's escrow holds USDC, but every transaction also pays a small network fee in SOL, so you need a little of both. Both are free on devnet.
+
+1. **SOL for fees:** copy your wallet address from Phantom, paste it into the [Solana faucet](https://faucet.solana.com), and request devnet SOL. One SOL covers plenty of test transactions.
+2. **USDC for listings and purchases:** paste the same address into the [USDC faucet](https://faucet.circle.com/), then select USDC and Solana devnet.
+
+If either faucet limits you, try again later.
 
 ## 3. Create your Escade account
 
@@ -27,8 +32,8 @@ The first time you buy, list or trade, Phantom asks you to **sign a message**. T
 
 Every action that touches the escrow opens a Phantom popup. Read it before approving it. There are only two kinds:
 
-- **Sign message** links your wallet to your account. It does not move any SOL.
-- **Approve transaction** sends a transaction to Escade's escrow program. Phantom shows the SOL leaving or entering your wallet. Check that the amount matches what Escade showed you before approving.
+- **Sign message** links your wallet to your account. It does not move any USDC.
+- **Approve transaction** sends a transaction to Escade's escrow program. Phantom shows the USDC leaving or entering your wallet. Check that the amount matches what Escade showed you before approving.
 
 If an amount looks wrong, reject the popup and let us know in our Discord. Nothing happens until you approve.
 
