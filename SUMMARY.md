@@ -6,7 +6,7 @@
 * [How Escade Works](how-it-works.md)
 * [Disputes](disputes.md)
 * [What Escade Cannot Do](what-escade-cannot-do.md)
-* [Collateral and Fees](collateral-and-fees.md)
+* [Payments and Fees](collateral-and-fees.md)
 * [Known Limitations](limitations.md)
 * [References](references.md)
 * [Appendix](appendix.md)

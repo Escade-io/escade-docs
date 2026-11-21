@@ -12,8 +12,6 @@ Case, D.O. (2009) ‘Serial collecting as leisure, and coin collecting in partic
 
 Cozmor (2026) Cozmor. Available at: https://www.cozmor.com/ (Accessed: 27 October 2026).
 
-Decrypt (2020) Closing decentralized marketplace OpenBazaar gets lifeline, 29 September. Available at: https://decrypt.co/43197/closing-decentralized-marketplace-openbazaar-gets-lifeline (Accessed: 27 October 2026).
-
 eBay (2022) eBay acquires TCGplayer, 31 October. Available at: https://www.ebayinc.com/stories/news/ebay-acquires-tcgplayer/ (Accessed: 27 October 2026).
 
 eBay (2024) eBay, Collectors enter into commercial agreement, sign deals for acquisition of Goldin by eBay and acquisition of the eBay Vault by PSA, 10 April. Available at: https://www.ebayinc.com/stories/news/ebay-collectors-enter-into-commercial-agreement-sign-deals-for-acquisition-of-goldin-by-ebay-and-acquisition-of-the-ebay-vault-by-psa/ (Accessed: 27 October 2026).
@@ -47,8 +45,6 @@ Market Decipher (2026) Anticipated rise in collectibles demand starting 2024: th
 McIntosh, W.D. and Schmeichel, B. (2004) ‘Collectors and collecting: a social psychological perspective’, Leisure Sciences, 26(1), pp. 85–97.
 
 Nosko, C. and Tadelis, S. (2015) The limits of reputation in platform markets: an empirical analysis and field experiment. NBER Working Paper 20830. Cambridge, MA: National Bureau of Economic Research. Available at: https://www.nber.org/papers/w20830.
-
-OpenBazaar (2016) OpenBazaar 2.0: P2P trade takes the next step. Available at: https://medium.com/openbazaarproject/openbazaar-2-0-p2p-trade-takes-the-next-step-4d75b7f23ec8 (Accessed: 27 October 2026).
 
 Strategic Market Research (2024) Trading cards market. Available at: https://www.strategicmarketresearch.com/market-report/trading-cards-market (Accessed: 27 October 2026).
 

@@ -1,8 +1,10 @@
 # Escade
 
-Escade is a peer-to-peer (P2P) marketplace for the buying, selling, and trading of physical collectibles. To ensure delivery of products throughout a transaction, both parties submit collateral in USDC which is then held by a program on the Solana blockchain until successful fulfilment of the transaction and delivery.
+Escade is a peer-to-peer (P2P) marketplace for the buying, selling and trading of physical collectibles. Every payment is held by our payment and transaction processing supplier until the card has been delivered and checked, so nobody is paid for a card that never arrives.
 
-So, you list an item for sale or trade, then send collateral to the Solana program and sign for the transaction. Someone then purchases the item, or accepts the trade, sending over their collateral to the program in the process, and in the case of a purchase the requested sales price. The USDC sits in a program created account that neither party nor Escade can move independently. For now, the card gets posted off the platform via InPost by purchasing delivery to the other party’s locker details until we get API access from InPost. When the buyer confirms it arrived as described, or the delivery window runs out with no dispute raised, the program releases the payment. If something goes wrong and a transaction leads to a dispute, there is a defined way out as described in [Disputes](disputes.md).
+You list an item for sale or trade. Someone buys it, or accepts the trade, and pays. That payment is held, not passed on. You post the card using a tracked InPost delivery to the other party's locker. Once it has arrived and the inspection window has closed with no problem raised, the seller is paid. If something goes wrong, there is a defined way out, described in [If something goes wrong](disputes.md).
+
+> **Escade is moving from blockchain to card payments.** Trading is paused while we make the switch. These pages describe how Escade works from now on.
 
 ## Why Escade was created
 
@@ -12,51 +14,44 @@ At first it was a toy project, a chance for me to learn more about backend infas
 
 ## What makes it different
 
-**Trading products peer-to-peer is what Escade was created for** 
+**Trading products peer-to-peer is what Escade was created for**
 
-Businesses like eBay and Vinted are constrained here. Their whole business model revolves around the holding of payment for goods and services until the buyer agrees that fulfilment is satisfactory. However, this model cannot accommodate transactions that effectively have two buyers who do not exchange currency. This is where Escade steps in: our whole business model is designed around the trading of goods amongst parties where no purchase value is exchanged.
+Businesses like eBay and Vinted are constrained here. Their whole business model revolves around the holding of payment for goods and services until the buyer agrees that fulfilment is satisfactory. However, this model cannot accommodate transactions that effectively have two buyers who do not exchange currency. This is where Escade steps in: we turn a card-for-card swap into two linked sales, so both traders get the same protection a buyer gets on any good marketplace.
 
-**Collateral protects against defection from cooperation**
+**Holding payment protects against defection from cooperation**
 
-In a card for card trade where there is effectively two buyers there are two ways to manage cooperation and mediation. The first of which is to have an indepdent adjudicator who takes custody of the cards from both parties prior to the swap and have them conduct a quality and fraud analysis to determine if it meets specifications for the transaction. However, this introduces multi leg shipping which increase shipping costs by double at least for the customers. It also has high start up capital requirements since its manual, and requires a physical premise for receiving deliveries and conducting analysis. The second of which is to have an independent adjudicator hold collateral from both parties until the transaction is completed. This also has disadvantages in that it locks up customers capital and makes a trade temporarily a rather costly method of transacting. It also leads to customers maybe taking on a risk they loose collateral despite transacting honestly. Especially considering collateral needs to be set high enough that defection leads to a negative return, at least initially until we build a user profile.
+In a card for card trade where there is effectively two buyers there are two ways to manage cooperation and mediation. The first of which is to have an independent adjudicator who takes custody of the cards from both parties prior to the swap and have them conduct a quality and fraud analysis to determine if it meets specifications for the transaction. However, this introduces multi leg shipping which at least doubles shipping costs for the customers. It also has high start up capital requirements since its manual, and requires a physical premise for receiving deliveries and conducting analysis. The second of which is to have an independent adjudicator hold payment from both parties until the transaction is completed. This also has disadvantages in that it ties up customers' money for the length of the trade.
 
-Given we are a start-up with limited funds we have opted to use the second choice as it keeps operational costs low for now providing headroom to grow, and through combining collateral and a trust scoring algorithm borrowing features from marketplaces you might already be familiar with, we are confident we can reduce negative customer experiences and fraud to normal non-crypto business operating levels. 
+Given we are a start-up with limited funds we have opted to use the second choice as it keeps operational costs low for now providing headroom to grow, and through combining held payments and a trust scoring algorithm borrowing features from marketplaces you might already be familiar with, we are confident we can reduce negative customer experiences and fraud to normal marketplace levels.
 
-Upon initialisation of a trade listing, the submitting party sends a percentage of the requested cards' value set by Delphi in collateral to a program created account where it is stored until the listing is either cancelled or the trade is accepted and completed. Cancellation can only occur prior to acceptance, or afterwards via a request to the other party. If cancelled, the collateral is refunded in full, the listing fee is not. Upon acceptance, the accepting party then sends a percentage of the receiving cards' value set by Delphi in collateral to the same account. Both parties now have an incentive to not defect from the trade as they want their collateral staked back. 
+**A swap is two linked sales**
 
-A shop transaction works with the submitting party sending a percentage of the listed card's value set by Delphi in collateral to a program created account. Again, it is stored until the listing is either cancelled or the listing is bought and delivery completed. There is no two-sided delivery; a delivery fee is taken from the buyer and held within the escrow account too. This then goes to the seller upon completion as they essentially front the delivery fee via InPost delivery purchase externally. 
+When you swap your card for someone else's, you are selling your card to them and buying theirs from them, each at the agreed price. Both of you pay when the trade is accepted, and both payments are held. When both cards have arrived and checked out, each of you is paid for the card you sent, so the money cancels out and the cards have swapped. If one side never sends their card, the side that did is still paid for theirs. Nobody can walk off with a card without paying for it.
 
-**Collateral requirements change based upon user history**
+**Trust decides who ships first**
 
-Our proprietary trust scoring engine, Delphi, analyses and scores users based upon past activity - both on the blockchain and on the platform. Fresh accounts or low scoring users will post enough to ensure that defection leads to a loss. The more successful completions, the lower the collateral requirements should go. 
+Our proprietary trust scoring engine, Delphi, scores users based on their activity on Escade. In a swap, the trader with the lower score ships first, and the other ships once that parcel is on its way. That way an honest trader is never left having posted a card to someone who never posts theirs. Traders who both have high scores can ship at the same time.
 
-**Escade never takes direct custody of your funds** 
+**Everyone who gets paid is identity-checked**
 
-The account where collateral is temporarily held is created by a Solana program. Money leaves it only when you or the person you are trading with signs, or when a time limit written into the program runs out, and then only to one of you or to be burned. There is no method by which Escade can release, redirect, or freeze what is in there.
+To receive money on Escade you verify your identity with our payment processing supplier. A banned trader cannot simply start again with a new email address.
 
-**Escade can rule on a dispute but cannot enforce the ruling** 
+**Delivery is tracked and recorded**
 
-If a trade goes wrong and the two of you cannot agree, we review the evidence and publish a proposed split. That ruling is written to the escrow and moves nothing. One of you then must sign to execute it. Two separate signatures, neither sufficient alone.
-
-**Delivery is tracked and recorded** 
-
-All tracking IDs are verified against InPost's API. The public tracking API is available in the UK; it is only the label creation and returns API we are awaiting access to. This means that in the event of a dispute we can indeed verify if something was posted, and where it was posted to, etc. 
+All tracking IDs are verified against InPost's API. The public tracking API is available in the UK; it is only the label creation and returns API we are awaiting access to. This means that in the event of a dispute we can verify if something was posted, and where it was posted to.
 
 **There is a £50 limit to transactions**
 
-Initially there will be a hard cap on listings over £50 and for wallets that hold over a certain value in them. 
+Initially there is a cap of £50 per listing, and lower limits for new accounts.
 
 ## Start here
 
-- [Your first trade](first-trade.md) — wallet setup to a finished trade, step by step
+- [Your first trade](first-trade.md) — account setup to a finished trade, step by step
 - [The problem Escade solves](the-problem.md) — what goes wrong in card trades, and what doesn't
 - [How Escade works](how-it-works.md) — step by step, both flows
-- [Disputes](disputes.md) — refunds, returns, and disputes
-- [What Escade cannot do](what-escade-cannot-do.md) — the limits, deliberately
-- [Collateral and fees](collateral-and-fees.md) — what you pay and what you get back
+- [If something goes wrong](disputes.md) — refunds, returns and disputes
+- [What Escade cannot do](what-escade-cannot-do.md) — the limits
+- [Payments and fees](collateral-and-fees.md) — what you pay and when you get paid
 - [Known limitations](limitations.md) — what is unfinished, in our own words
-- [References](references.md) — List of sources
-- [Appendix](appendix.md) — Data to aid in discussion
-
-
-
+- [References](references.md) — list of sources
+- [Appendix](appendix.md) — data to aid in discussion

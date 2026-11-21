@@ -37,29 +37,24 @@ Even setting the marketplaces aside, a swap is a harder deal to make safe.
 
 ## What people do instead
 
-Collectors who want to swap arrange it themselves in Facebook groups, Reddit and Discord. There is no escrow, no protection and no recourse. Somebody must post first, and sometimes that person loses their card and gets nothing back.
+Collectors who want to swap arrange it themselves in Facebook groups, Reddit and Discord. There is no protection and no recourse. Somebody must post first, and sometimes that person loses their card and gets nothing back.
 
 The handful of apps built for swapping tend to fall into one of two camps:
 
 - **They step back.** They help you find a trade, then leave the risk with you if it goes wrong (Swap, 2026).
-- **They take over.** They hold your cards in their vault or hold the money and judge the dispute themselves. That makes it safer, but now you're trusting the platform instead of the other trader (Cozmor, 2026; Veriswap, 2026).
-
-## Someone got close once
-
-OpenBazaar, a decentralised marketplace that ran from 2016 to 2021, used the kind of escrow that suits this problem. Payment sat in an account that needed two of three signatures to release: buyer, seller and a moderator. The moderator could rule on a dispute but could not take the money alone (OpenBazaar, 2016).
-
-The escrow did its job. OpenBazaar shut down anyway, for reasons that had nothing to do with it: it tried to be a marketplace for everything, the software was hard to use, choosing a moderator was confusing, and with no fees it couldn't pay its own bills (OpenBazaar, 2016; Decrypt, 2020).
+- **They take over.** They hold your cards in their vault, or hold the money and judge the dispute themselves (Cozmor, 2026; Veriswap, 2026).
 
 ## The gap
 
-So, the problem is not that collectors are dishonest. Most trades go fine. The problem is what happens when two people disagree about whether a deal was kept, and today there are only two answers: trust the other person or trust the platform (Teh, 2020).
+So, the problem is not that collectors are dishonest. Most trades go fine. The problem is what happens when two people disagree about whether a deal was kept (Teh, 2020).
 
 What is missing is a way to swap where:
 
-- the trade is enforced without anyone holding your cards or your money
-- backing out of a deal costs the person who backs out
+- both traders get the same protection a buyer gets on a good marketplace
+- cards go straight from one trader to the other, with no vault in the middle
+- backing out of a deal costs the person who backs out, not the person they let down
 - a dispute has a clear, understandable route to an answer
-- the platform pays its way without needing to take custody of anything
+- the platform pays its way through fees, not through failed deals
 
 [How Escade works](how-it-works.md) explains how Escade sets out to do that.
 
